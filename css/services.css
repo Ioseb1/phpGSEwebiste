@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Rajdhani', sans-serif;
+}
+
+html, body {
+  height: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+h1 {
+  font-size: 53px;
+  font-family: 'Rajdhani', sans-serif;
+  font-weight: lighter;
+  color: #000;
+  text-align: center;
+  margin: 0px 0 45px 0;
+  word-spacing: 0.2em;
+  padding-top: 30px;
+  letter-spacing: 0.2em;
+  position: relative;
+}
+
+.container {
+  margin-top: 50px !important;
+  margin-bottom: 50px !important;
+}
+
+footer h5 {
+  font-size: 18px;
+}
+
+
+/* Media Queries */
+
+@media (max-width: 481px) {
+  h1 {
+    font-size: 30px;
+  }
+
+  footer h5 {
+    font-size: 15px;
+  }
+
+  .col-sm-12 {
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 420px) {
+  
+}

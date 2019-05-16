@@ -1,0 +1,92 @@
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+html, body {
+ height: 100%;
+ margin: 0;
+}
+
+body {
+ height: 100%;
+}
+
+h1 {
+ font-size: 53px;
+ font-family: 'Rajdhani', sans-serif;
+ font-weight: lighter;
+ color: #000;
+ text-align: center;
+ margin: 0px 0 45px 0;
+ word-spacing: 0.2em;
+ padding-top: 30px;
+ letter-spacing: 0.2em;
+ position: relative;
+}
+
+/* Header container */
+.header {
+  margin: 0px 0px 0px 0px;
+}
+
+.header ul {
+  list-style-type: none;
+  margin: 0px;
+  overflow: hidden;
+  background: #006633;
+  font-size: 15px;
+  padding: 0px;
+}
+
+.header .active {
+  background-color: #000;
+  color: #000;
+}
+
+.header li {
+  float: left;
+  font-size: 20px;
+  font-family: 'Rajdhani', sans-serif;
+}
+
+.header li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 23px 25px 23px 25px;
+  text-decoration: none;
+}
+
+.header a:hover {
+  transition: 0.7s;
+  background-color: #008040;
+  text-decoration: none;
+  color: white;
+}
+
+.header .login {
+  float: right;
+  font-size: 20px;
+  font-family: 'Rajdhani', sans-serif;
+  color: #fff;
+}
+
+.header .signup {
+  float: right;
+  font-size: 20px;
+  font-family: 'Rajdhani', sans-serif;
+  color: #fff;
+}
+
+.header .contact {
+  float: right;
+  font-size: 20px;
+  font-family: 'Rajdhani', sans-serif;
+  margin-left: 17px;
+  border-radius: 3px;
+  border-style: thin;
+  background-color: #000;
+  color: #fff;
+}

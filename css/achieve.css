@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Rajdhani', sans-serif;
+}
+
+html, body {
+  height: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+  background: linear-gradient(to top, #fff, #cc6600);
+}
+
+/*.hh1 {
+  width: 50%;
+  text-align: center;
+  margin-left: 25%;
+  border-bottom: 1px solid #fff;
+}*/
+
+h1 {
+  font-size: 57px;
+  font-weight: lighter;
+  color: #000;
+  text-align: center;
+  margin: 0px 0 45px 0;
+  word-spacing: 0.2em;
+  padding-top: 30px;
+  letter-spacing: 0.2em;
+  position: relative;
+}
+
+.bLink {
+  margin-top: 25px;
+  margin-left: 5px;
+  font-size: 25px;
+  color: #fff;
+}
+
+i {
+  margin-left: 10px;
+  margin-top: 25px;
+}
+
+.bLink:hover {
+  text-decoration: none;
+}
+
+.icon {
+  margin-left: 44.5%;
+}
+
+.year {
+  font-weight: bold;
+  font-size: 40px;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 35px;;
+}
+
+h6 {
+  text-align: center;
+}
+
+.imge {
+  width: 100%;
+}
+
+.row2 {
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+
+@media (max-width: 481px) {
+  h1 {
+    font-size: 43px;
+  }
+
+  .year {
+    margin-bottom: 0px;
+  }
+
+  .bLink {
+    font-size: 20px;
+  }
+
+  .icon {
+    margin-top: 45px;
+    margin-bottom: 10px;
+  }
+
+  footer h5 {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 420px) {
+  h1 {
+    font-size: 43px;
+  }
+
+  .year {
+    margin-bottom: 0px;
+  }
+
+  .bLink {
+    font-size: 20px;
+  }
+
+  .icon {
+    margin-top: 45px;
+    margin-bottom: 10px;
+  }
+
+  footer h5 {
+    font-size: 15px;
+  }
+}
