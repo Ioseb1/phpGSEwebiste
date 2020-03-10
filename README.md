@@ -1,2 +1,1 @@
-# phpGSEwebiste
-php implementation of gsewebsite
+# native php implementation of the GSEwebiste
